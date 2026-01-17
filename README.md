@@ -32,14 +32,15 @@ This project automates the process using an LLM (Google Gemini) while preserving
 - Outputs a modified LaTeX resume ready for compilation
 
 ## Project Structure
-
-AI-Based_Resume_Modifier/<br>
-├── main.py # CLI entry point<br>
-├── llm.py # Gemini LLM interface and prompt logic<br>
-├── job_descrp.txt # Sample job description (generated / intermediate)<br>
-├── .env.example # Environment variable template<br>
+```bash
+AI-Based_Resume_Modifier/
+├── main.py # CLI entry point
+├── llm.py # Gemini LLM interface and prompt logic
+├── job_descrp.txt # Sample job description (generated / intermediate)
+├── .env.example # Environment variable template
 ├── .gitignore<br>
 └── README.md<br>
+```
 
 ## Getting Started
 
