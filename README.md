@@ -33,13 +33,13 @@ This project automates the process using an LLM (Google Gemini) while preserving
 
 ## Project Structure
 
-AI-Based_Resume_Modifier/
-├── main.py # CLI entry point
-├── llm.py # Gemini LLM interface and prompt logic
-├── job_descrp.txt # Sample job description (generated / intermediate)
-├── .env.example # Environment variable template
-├── .gitignore
-└── README.md
+AI-Based_Resume_Modifier/<br>
+├── main.py # CLI entry point<br>
+├── llm.py # Gemini LLM interface and prompt logic<br>
+├── job_descrp.txt # Sample job description (generated / intermediate)<br>
+├── .env.example # Environment variable template<br>
+├── .gitignore<br>
+└── README.md<br>
 
 ## Getting Started
 
@@ -66,7 +66,7 @@ source .venv/bin/activate   # Linux / macOS
 pip install -r requirements.txt
 ```
 
-4. Rum command for usage:
+4. Run command for usage:
 
 ```bash
 python main.py {resume tex file} {job description txt file}
