@@ -34,12 +34,12 @@ This project automates the process using an LLM (Google Gemini) while preserving
 ## Project Structure
 ```bash
 AI-Based_Resume_Modifier/
-├── main.py # CLI entry point
-├── llm.py # Gemini LLM interface and prompt logic
-├── job_descrp.txt # Sample job description (generated / intermediate)
-├── .env.example # Environment variable template
-├── .gitignore<br>
-└── README.md<br>
+├── main.py                     # CLI entry point
+├── llm.py                      # Gemini LLM interface and prompt logic
+├── job_descrp.txt              # Sample job description (generated / intermediate)
+├── .env.example                # Environment variable template
+├── .gitignore
+└── README.md
 ```
 
 ## Getting Started
